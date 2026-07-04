@@ -1,12 +1,13 @@
 {
   "name": "cas-common-lib",
-  "version": "0.12.10",
+  "version": "0.12.11",
   "description": "Common Library for CAS",
   "main": "index.js",
   "directories": {
     "lib": "lib"
   },
   "dependencies": {
+    "@aws-sdk/client-secrets-manager": "^3.1079.0",
     "aws-cognito-ops": "^0.3.15",
     "jsonwebtoken": "^9.0.3",
     "moment-timezone": "^0.6.2",
@@ -23,5 +24,12 @@
   "bugs": {
     "url": "https://github.com/CompAndSave/cas-common-lib/issues"
   },
-  "homepage": "https://github.com/CompAndSave/cas-common-lib#readme"
+  "homepage": "https://github.com/CompAndSave/cas-common-lib#readme",
+  "scripts": {
+    "test": "node --test",
+    "lint": "eslint ."
+  },
+  "devDependencies": {
+    "eslint": "^8.57.1"
+  }
 }
