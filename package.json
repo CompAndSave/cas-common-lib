@@ -1,6 +1,6 @@
 {
   "name": "cas-common-lib",
-  "version": "0.12.11",
+  "version": "0.12.12",
   "description": "Common Library for CAS",
   "main": "index.js",
   "directories": {
