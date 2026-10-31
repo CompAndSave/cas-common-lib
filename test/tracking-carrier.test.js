@@ -112,10 +112,10 @@ test('requiring only the leaf adds exactly one module to require.cache', () => {
   );
 });
 
-test('package metadata declares version 0.13.0', () => {
+test('package metadata declares version 0.13.1', () => {
   const packageJson = JSON.parse(
     fs.readFileSync(path.join(projectRoot, 'package.json'), 'utf8')
   );
 
-  assert.equal(packageJson.version, '0.13.0');
+  assert.equal(packageJson.version, '0.13.1');
 });
